@@ -1,0 +1,60 @@
+<view class="tab">
+  <view wx:for="{{biaoti}}" class='{{index_swiper==index?"on":""}}'
+bindtap='classtop' data-num="{{index}}">{{biaoti[index]}}</view>
+</view>
+
+<swiper class='swp' bindchange='changenum' current='{{index_swiper}}'>
+<swiper-item >
+  <view class="myCircle">
+  <text class="title">我的圈子</text>
+  <view class="circle-item-wrap">
+    <view class="my-item">
+    <image src='../../images/qiepian16.jpg'></image>
+    <text>班级官网</text>
+  </view>
+   <view class="my-item">
+    <image src='../../images/qiepian17.jpg'></image>
+        <text>跑步圈</text>
+  </view>
+   <view class="my-item">
+    <image src='../../images/qiepian18.jpg'></image>
+        <text>知识分享圈</text>
+  </view>
+   <view class="my-item">
+    <image src='../../images/qiepian19.png'></image>
+        <text>加入圈子</text>
+  </view>
+  </view>
+</view>
+<view class="active">
+  <text class='title'>圈子活动</text>
+  <view class="active-item-wrap">
+    <image src="../../images/qiepian20.jpg"></image>
+    <image src="../../images/qiepian21.jpg"></image>
+    <image src="../../images/qiepian22.jpg"></image>
+  </view>
+</view>
+  
+
+  <view class="article" wx:for="{{article}}">
+    <view class="a-top">
+      <image src="{{item.pic}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+    <view class="a-text">{{item.text}}</view>
+    <view class="a-image">
+      <view wx:for="{{item.images}}" wx:for-item="image-item">
+      <image src="{{item.images[index]}}"></image></view>
+    </view>
+    <view class='a-bottom'>
+      <image src="../../images/like.png"></image>
+      <text>{{item.like}}</text>
+      <image style="margin-left:50rpx;" src="../../images/discuss.png"></image>
+      <text style='margin-right:10rpx;'>{{item.comment}}</text>
+    </view>
+  </view>
+  </swiper-item>
+<swiper-item>
+！！互联网+班nb！！
+</swiper-item>
+</swiper>

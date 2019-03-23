@@ -1,0 +1,110 @@
+page{
+  background: url(http://edu.zhiliaotang.com/common/img/mine_bg.png );
+  background-size: cover;
+  }
+.beginning{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:200rpx;
+  height: 1200rpx;
+  position: relative;
+}
+.user-info{
+  width: 670rpx;
+  height: 380rpx;
+  position: absolute;
+  left:3%;
+  top:-10%;
+  /* background-color: red; */
+  padding-top:60rpx;
+  padding-bottom: 20rpx;
+  padding:0 20rpx;   
+  box-shadow: 1px 1px 3px #ebebeb;
+  background-color:#fff;
+}
+.user-top{
+  height: 200rpx;
+  padding-top:30rpx;
+}
+.user-top image{
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  border:3px solid #fff;
+}
+
+.info{
+  width: 70%;
+  display: inline-block;
+  float: right;
+  height: 150rpx;
+}
+.name{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.lv{
+  margin:20rpx;
+  display: inline-block;
+     color: #11d59c;
+}
+.account{
+  display: block;
+  font-size: .9em;
+  color: gray;
+}
+.user-bottom{
+  display: flex;
+  justify-content: space-around;
+}
+.ziti{
+  color: #333;
+  height: 120rpx;
+  width: 120rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.wallet{
+    box-shadow: 1px 1px 3px #ebebeb;
+    position: absolute;
+    left:3%;
+    top:25%;
+    width: 670rpx;
+    padding:30rpx 20rpx;
+    height: 230rpx;
+    background-color: white;
+}
+.wallet-tupian{
+  display: flex;
+}
+.wallet-tupian image{
+  height:190rpx;
+}
+.title{
+  font-size: 1em;
+  color: #333;
+  display: block;
+  margin: 10rpx;
+}
+
+.more{
+  background-color: #fff;
+  width: 670rpx;
+  height: 600rpx;
+  position: absolute;
+  left:3%;
+  top:78%;
+  padding:30rpx 20rpx;
+  box-shadow: 1px 1px 3px #ebebeb;
+}
+.more-cnt{
+ display: flex;
+flex-wrap: wrap;
+ justify-content: space-between;
+}
+.more-cnt image{
+  height: 160rpx;
+  width: 160rpx;
+}

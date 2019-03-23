@@ -1,0 +1,16 @@
+<swiper indicator-active-color='rgba(255,0,0,0.3)'indcator-active-color="rgba(255,0,0,0.8)">
+<swiper-item>
+<image src="../../images/guide_new_1.png" bindtap='clcl'></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/guide_new_2.png"></image>
+</swiper-item>
+<swiper-item>
+<image src="../../images/guide_new_3.png"></image>
+<view class="skip">
+  <navigator url="/pages/home/home" open-type="switchTab" hover-class="other-navigator-hover">点我点我</navigator></view>
+</swiper-item>
+</swiper>
+
+
+

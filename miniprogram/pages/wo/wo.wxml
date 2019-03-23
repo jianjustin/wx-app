@@ -1,0 +1,47 @@
+<view class="beginning">
+  <view class='user-info'>
+    <view class='user-top'>
+      <image src="../../images/user.png"></image>
+      <view class="info">
+      <text class='name'>咸鱼</text>
+      <text class='lv'>L5</text>
+      <text class='account'>账号：333333333</text>
+      </view>
+    </view>
+    <view class="user-bottom">
+      <view class="ziti">
+        <text>1</text>
+        <text>好友</text>
+      </view>
+      <view class="ziti">
+        <text>2</text>
+        <text>关注</text>
+      </view>
+      <view class="ziti">
+        <text>3</text>
+        <text>粉丝</text>
+      </view>
+      <view class="ziti">
+        <text>4</text>
+        <text>圈子</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="wallet">
+   <text class="title">钱包</text>
+    <view class="wallet-tupian">
+      <image src="../../images/qiepian01.png"></image>
+      <image src="../../images/qiepian02.png"></image>
+      <image src="../../images/qiepian03.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="more">
+  <text class='title'>更多服务</text>
+  <view class="more-cnt">
+  <view wx:for="{{data_imgs}}">
+    <image src="{{item}}"></image></view>
+  </view>
+  </view>

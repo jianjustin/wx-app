@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<swiper bindchange='changenum' current='{{index_swiper}}'>
+<swiper-item wx:for="{{iconcc}}">
+<view>{{item.style}}</view>
+<view class="bushu">{{item.num}}</view>
+<view>今日目标{{item.aim}}</view>
+<view class="ranshao">燃烧{{item.end}}大卡</view>
+</swiper-item>
+</swiper>
+
+<view class="xiatu">
+<view wx:for="{{icon}}" class='{{index_swiper==index?"active":""}}'
+bindtap='classtop' data-num="{{index}}">
+<image src="{{item}}"></image>
+<text class="ziti">{{icontext[index]}}</text>
+</view>
+</view>
+

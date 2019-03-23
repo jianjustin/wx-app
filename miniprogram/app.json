@@ -7,7 +7,11 @@
     "pages/databaseGuide/databaseGuide",
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib"
+    "pages/chooseLib/chooseLib",
+    "pages/wo/wo",
+    "pages/weclome/weclome",
+    "pages/hello/hello",
+    "pages/home/home"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -15,5 +19,27 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "jote",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "健身",
+        "iconPath": "images/ic_tab_1.png",
+        "selectedIconPath": "images/ic_tab_1_selected.png"
+      },
+      {
+        "pagePath": "pages/hello/hello",
+        "text": "圈子",
+        "iconPath": "images/ic_tab_2.png",
+        "selectedIconPath": "images/ic_tab_2_selected.png"
+      },
+      {
+        "pagePath": "pages/wo/wo",
+        "text": "我",
+        "iconPath": "images/ic_tab_3.png",
+        "selectedIconPath": "images/ic_tab_3_selected.png"
+      }
+    ]
   }
 }

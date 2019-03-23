@@ -1,0 +1,44 @@
+/* pages/home/home.wxss */
+page{
+  background:url(http://edu.zhiliaotang.com/common/img/bg_all.jpg);
+  background-size: 100% 100%;
+  margin-top:30rpx;
+}
+swiper{
+  margin-top: 40%;
+  height: 400rpx;
+}
+swiper view{
+text-align: center;
+}
+.bushu{
+  font-size: 100rpx;
+  font-weight: hold;
+  color: white;
+}
+.ranshao{
+  width: 220rpx; 
+   margin:0 auto;
+  margin-top: 50rpx;
+  color: #12cf97;
+  border-top:2rpx dashed #12cf97;
+  border-bottom:2rpx dashed #12cf97;
+}
+.xiatu{
+  margin-top: 100rpx;
+   display: flex;
+   justify-content: space-around;
+}
+.xiatu view{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.xiatu image{
+width: 100rpx;
+height: 100rpx;
+}
+.active text{
+  color: red;
+}
